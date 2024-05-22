@@ -25,7 +25,8 @@ h1{
 }
 
 h2{
-
+    font-size: 48px;
+    text-align: center;
 }
 
 h3{
@@ -79,10 +80,9 @@ p{
     color: #f460b7;
 }
 
-/*Landing-page*/
+/*Landing page section*/
 .landing-page-container{
     padding: 40px 48px;
-    height: 100vh;
 }
 
 .landing-page{
@@ -102,8 +102,45 @@ p{
     height: 4rem;
 }
 
+/* Key features section */
+
+.features-container{
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column img{
+    height: 235px;
+}
+
+
 @media only screen and (max-width: 768px){
     .landing-page{
         flex-direction: column;
     }
+    .features{
+        flex-direction: column;
+    }
+    .column{
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .features .column:nth-child(2) {
+        flex-direction: row;
+      }
 }
