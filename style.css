@@ -86,8 +86,17 @@ p{
 }
 
 .landing-page{
-    display: flex;
+    padding: 40px 48px;
+    max-width: 1215px;
     justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
 }
 
 .landing-page-comixplain{
@@ -106,16 +115,23 @@ p{
 
 .features-container{
     padding: 40px 48px;
+    max-width: 1215px;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+    padding-bottom: 65px;
     display: flex;
     flex-direction: column;
-    column-gap: 40px;
-    row-gap: 40px;
-    align-items: center;
 }
 
 .features{
     display: flex;
     justify-content: center;
+    column-gap: 24px;
 }
 
 .column{
@@ -128,6 +144,8 @@ p{
 .column img{
     height: 235px;
 }
+
+/*steps*/
 
 .container-left{
     display: flex;
@@ -171,6 +189,47 @@ p{
     padding: 0px;
     margin: 0px;
 }
+
+/* contributors */
+.contributors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.contributor-picture{
+    width: 200px;
+    border-radius: 4px;
+}
+
+.name{
+    display: flex;
+    column-gap: 8px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-button{
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+}
+
+.linkedin-button:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.linkedin-button img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+
 
 
 @media only screen and (max-width: 768px){
