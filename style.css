@@ -60,23 +60,12 @@ p{
     padding: 12px 16px;
     border-radius: 4px;
     font-size: 24px;
+    color: white;
 }
 
 .top-nav button:hover{
     cursor: pointer;
     background-color: white;
-    color: #f460b7;
-
-}
-
-.top-nav button a{
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.top-nav button a:hover{
-    cursor: pointer;
     color: #f460b7;
 }
 
@@ -94,8 +83,6 @@ p{
     max-width: 1215px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 65px;
-    padding-bottom: 65px;
     display: flex;
 }
 
@@ -122,8 +109,6 @@ p{
     max-width: 1215px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 65px;
-    padding-bottom: 65px;
     display: flex;
     flex-direction: column;
 }
@@ -229,10 +214,92 @@ p{
     border-radius: 2px;
 }
 
+/*github*/
+.github-container{
+    padding: 40px 48px;
+    max-width: 1215px;
+    align-items: center;
+    width: 85%;
+    max-width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px ;
+    justify-content: center;
 
+}
+
+.github-container img{
+    width: 64px;
+    height: 64px;
+}
+
+.github-container p{
+    max-width: 500px;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d0fc;
+    padding: 32px 48px;
+    justify-content: center;
+}
+.logo{
+    width: 24rem;
+}
+.top_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.link_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    text-align: right;
+}
+
+
+.link_text{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.link_text:hover{
+    cursor: pointer;
+    color: #6360f4;
+    text-decoration: underline;
+}
+
+.line {
+    margin: 24px 0 32px;
+    color: #707070;
+
+}
+.copyright {
+    text-align: right;
+}
+
+.logo-button{
+    border: none;
+    background-color: transparent;
+}
+
+.logo-button:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
 
 
 @media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     .landing-page{
         flex-direction: column;
     }
@@ -249,4 +316,33 @@ p{
     .features .column:nth-child(2) {
         flex-direction: row;
       }
+
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 24px ;
+    }  
+    .top_row{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .link_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+        
+    }
+    .logo {
+        width: 10rem;
+        cursor: pointer;
+    }
+    .line{
+        margin: 24px 0;
+    }
+    .copyright {
+        text-align: center;
+    }
 }

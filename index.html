@@ -16,13 +16,8 @@
   <body>
     <div class="top-nav">
       <img src="pictures/logo.svg" alt="comixcraft logo" />
-      <button>
-        <a
-          href="http://comixcraft.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Editor</a
-        >
+      <button onclick="window.open('https://comixcraft.com/', '_blank')">
+        Editor
       </button>
     </div>
     <div class="landing-page-container">
@@ -139,7 +134,7 @@
               </p>
             </div>
           </div>
-          <div class="one-step">›
+          <div class="one-step">
             <div class="step-container">
               <div class="step-header">
                 <img src="pictures/family.png" alt="share to friends " />
@@ -208,9 +203,26 @@
             <p>Hannah Wagner</p>
           </div>
         </div>
-
-        
       </div>
     </div>
+    <div class="github-container">
+      <img src="pictures/github.png" alt="github logo">
+      <p>Comixcraft is an open-source project and the repository is accessible on our GitHub account.</p>
+    </div>
+    <footer class="footer">
+      <div class="top_row">
+          <button class="logo-button" onclick="window.open('https://comixcraft.com/', '_blank')">
+            <img class="logo" src="/pictures/comixcraftLogo.svg" />
+          </button>
+              
+          <div class="link_container">
+              <p class="link_text" onclick="window.open('https://comixcraft.com/impresum', '_blank')" class="link_text">Impressum</p>
+              <p class="link_text" onclick="window.open('https://showcase.comixcraft.com/', '_blank')" class="link_text">About comixcraft</p>
+              <p class="link_text" onclick="window.open('https://fhstp.github.io/comixplain/', '_blank')" >About Comixplain</p>
+          </div>
+      </div>
+      <hr class="line" />
+      <div class="copyright">© comixcraft 2024. All rights reserved.</div>
+  </footer>
   </body>
 </html>
