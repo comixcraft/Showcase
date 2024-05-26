@@ -51,13 +51,13 @@ header{
     background: linear-gradient(90deg, #6360f4 44.5%, #f460b7);
     width: 100%;
     z-index: 10;
-    height: 3.5rem;
 }
 
 .top-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;   
+    padding: 16px 24px;
 }
 
 .top-nav img {
@@ -85,13 +85,13 @@ header{
 }
 
 .landing-page {
-  padding: 40px 48px;
   max-width: 1215px;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+
 }
 
 .landing-page-comixplain {
@@ -341,6 +341,7 @@ header{
 
   .landing-page {
     flex-direction: column;
+    padding: 16px;
   }
   .landing-page-container {
     padding: 0;
@@ -350,6 +351,10 @@ header{
   }
   .features {
     flex-direction: column;
+  }
+  .features-container{
+    padding: 16px;
+
   }
   .column {
     flex-direction: row-reverse;
