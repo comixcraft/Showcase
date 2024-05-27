@@ -382,6 +382,10 @@ header{
     display: none;
   }
 
+  .github-container{
+    padding: 16px 0;
+  }
+
   .footer {
     flex-direction: column;
     justify-content: center;
