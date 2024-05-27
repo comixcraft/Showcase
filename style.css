@@ -343,7 +343,9 @@ header{
   }
 
   .mobile-container{
-    max-width: 100%;
+    max-width: 100% !important;
+    padding: 0; /* Reset any default padding */
+    border: 0;   /* Reset any default border */
     margin: 0 auto;  
   }
 
@@ -384,7 +386,7 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 24px;
+    padding: 24px 0px;
   }
   .top_row {
     flex-direction: column;
