@@ -80,7 +80,7 @@ header{
   text-decoration: none;
 }
 
-.top-nav button:hover {
+.top-nav a:hover {
   cursor: pointer;
   background-color: white;
   color: #f460b7;
@@ -347,9 +347,9 @@ header{
     padding: 16px 32px;
   }
 
-  .top-nav button{
+  .top-nav a{
     font-size: 16px;
-    padding: 16px 24px;
+    padding: 16px 32px;
   }
 
   .mobile-container{
