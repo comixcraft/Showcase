@@ -1,0 +1,444 @@
+@font-face {
+  font-family: 'Nunito';  
+  src: url('fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype'),  
+       url('fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype') italic; 
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+.primaryButton {
+  background-color: #f460b7;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 16px 32px;
+  color: white;
+  font-family: "Nunito";
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.primaryButton:hover {
+  background-color: #f17dce;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  color: #6360f4;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+a{
+    color: black;
+}
+
+/* Navigation */
+header{
+    background: linear-gradient(90deg, #6360f4 44.5%, #f460b7);
+    width: 100%;
+    z-index: 10;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 16px 24px;
+}
+
+.top-nav img {
+  width: 10rem;
+}
+
+.top-nav a {
+  background-color: transparent;
+  border: #fff 1px solid;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #f460b7;
+}
+
+/*Landing page section*/
+.landing-page-container {
+  padding: 40px 48px;
+}
+
+.landing-page {
+  max-width: 1215px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  column-gap: 64px;
+
+}
+
+.landing-page-comixplain {
+  display: flex;
+  column-gap: 16px;
+  padding-top: 48px;
+  align-items: center;
+}
+
+.landing-page-comixplain img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2px;
+}
+
+.promo-gif {
+  border-radius: 8px;
+  width: 40%;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Key features section */
+
+.features-container {
+  padding: 40px 48px;
+  max-width: 1215px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1215px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.column {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column img {
+  height: 11rem;
+}
+
+.column p{
+  height: 11rem;
+}
+
+/*steps*/
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.one-step {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.step-number {
+  border: 2px solid #6360f4;
+  border-radius: 300px;
+  height: 64px;
+  width: 64px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.step-number h3 {
+  line-height: 0;
+  height: 60px;
+  width: 60px;
+}
+
+.step-header {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.step-header img {
+  width: 48px;
+  height: 48px;
+}
+
+.step-header h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* contributors */
+.contributors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 56px;
+}
+
+.one-contributor{
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contributor-picture {
+  width: 200px;
+  border-radius: 4px;
+}
+
+.name {
+  display: flex;
+  column-gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin-button {
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+}
+
+.linkedin-button:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.linkedin-button img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+/*github*/
+.github-container {
+  padding: 40px 48px;
+  max-width: 1215px;
+  align-items: center;
+  width: 85%;
+  max-width: 1215px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  justify-content: center;
+}
+
+.github-container img {
+  width: 64px;
+  height: 64px;
+}
+
+.github-container p {
+  max-width: 500px;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #d1d0fc;
+  padding: 32px 48px;
+  justify-content: center;
+}
+.logo {
+  width: 24rem;
+}
+.top_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: right;
+}
+
+.link_text {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.link_text:hover {
+  cursor: pointer;
+  color: #6360f4;
+  text-decoration: underline;
+}
+
+.line {
+  margin: 24px 0 32px;
+  color: #707070;
+}
+.copyright {
+  text-align: right;
+}
+
+.logo-button {
+  border: none;
+  background-color: transparent;
+}
+
+.logo-button:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .primaryButton{
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .top-nav a{
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .mobile-container{
+    max-width: 100% !important;
+    padding: 0; 
+    border: 0; 
+    margin: 0 auto;  
+  }
+
+  .landing-page {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .landing-page-container {
+    padding: 0;
+  }
+  .landing-page-comixplain {
+    padding-bottom: 48px;
+  }
+  .promo-gif {
+    width: 100%;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features-container{
+    padding: 16px;
+
+  }
+  .column {
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  .column img {
+    height: 7rem;
+    padding: 12px;
+  }
+  .column p{
+    height: auto;
+  }
+  .features .column:nth-child(2) {
+    flex-direction: row;
+  }
+
+  .steps-img{
+    display: none;
+  }
+
+  .contributors{
+    gap: 24px;
+  }
+
+  .github-container{
+    padding: 16px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 0px;
+  }
+  .top_row {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .link_container {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  .link_text{
+    font-size: 16px;
+  }
+  .logo {
+    width: 10rem;
+    cursor: pointer;
+  }
+  .line {
+    margin: 24px 0;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
