@@ -152,6 +152,10 @@ header{
   height: 11rem;
 }
 
+.column p{
+  height: 11rem;
+}
+
 /*steps*/
 .steps {
   display: flex;
@@ -388,6 +392,9 @@ header{
   .column img {
     height: 7rem;
     padding: 12px;
+  }
+  .column p{
+    height: auto;
   }
   .features .column:nth-child(2) {
     flex-direction: row;
