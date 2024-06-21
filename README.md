@@ -7,7 +7,7 @@ To run the project, double-click on the index.html file to open it in your defau
 
 ## Style Guide
 
-The font used for the **comixcraft**-Showcase is _Nunito_, it is the default for everything.
+The font used for the **comixcraft**-Showcase is _Nunito_ (https://github.com/comixcraft/Editor/tree/dev/public/fonts), it is the default for everything.
 Any text in the comics themselves is in the font _Pangolin_.
 
 The colors, spacers, borders and other design elements are defined in our brand guide and only these should be used. They are the same as the ones in the editor (https://github.com/comixcraft/Editor/tree/dev/assets/scss). 
